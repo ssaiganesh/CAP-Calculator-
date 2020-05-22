@@ -4,7 +4,7 @@ grades_cap = {"A+": 5.0 , "A": 5.0, "A-": 4.5, 'B+':4.0, 'B':3.5,'B-': 3.0, 'C+'
 
 def freshie():
     freshie_check = input("Is this your first sem? ")
-    if freshie_check == "N":
+    if freshie_check[0].upper() == "N": # no or n or N or NO
         current_cap = float(input("What is your current cap? "))
         completed_mc = int(input("How many graded Modular Credits have been completed? ")) #does not include SU-ed mods
     else:
