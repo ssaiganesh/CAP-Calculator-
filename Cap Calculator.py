@@ -19,7 +19,7 @@ def new_sem():
     sap = 0
     sum_new_mc = 0
     for i in range(1,(num_mods+1)):
-        new_mc = int(input("What is the number of MCs for mod",i"? "))
+        new_mc = int(input("What is the number of MCs for mod",i,"? "))
         new_grade = input("What is the grade? ")
         sap += grades_cap[new_grade.upper()] * new_mc
         sum_new_mc += new_mc
